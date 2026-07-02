@@ -4,19 +4,48 @@
          <meta charaset="utf-8" />
          <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
          <title>indro to HTML</title>
+         <style>
+/* h2{
+    color:brown
+}
+p { */
+    /* color: chartreuse;
+}
+/* id selector */
+/* #head-2 {
+    color: green;
+    font-size: 50px;
+} */ */
+/* class selector  */
+
+/* .theme-colour{
+    color: rgb(39, 29, 3);
+    text-align: center;
+    font-size: 30px;
+} */
+
+         </style>
+<link rel="stylesheet"href="style.css"/>
+
     </head>
-    <body>
-       <!-- // heading tags -->
-       <h1>HEADING 1</h1>
+    <body> 
+
+        <!-- // heading tags -->
+
+       <h1 style="color: blue;">HEADING 1</h1>
+       <h2 id ="head-2">HEADING 2</h2>
        <h2>HEADING 2</h2>
-       <h3>HEADING 3</h3>
+       <h3 class="theme-colour">HEADING 3</h3>
        <h4>HEADING 4</h4>
        <h5>HEADING 5</h5>
        <h6>HEADING 6</h6>
 
-       <P>
+       <P class="theme-colour">
         HAI HOW ARE YOU I AM FINE 
        </P>
+
+       <!-- <--un paired tags--> -->
+
        <img src="IMG/MY IMAGE.jpeg" width="300" height="300"/>
 
        <a href="vishnu" target="_blank">
@@ -78,13 +107,36 @@
 <tr></tr>
 
 </table>
+<br>
+<hr>
+<br>
+<form>
+    <label for="name">
+        NAME =
+    </label>
+     <input id="name" type="text" placeholder="enter your name"/ required>
+     <label for="password">
+        PASSWORD =
+     </label>
+     <input id="password" type="password" placeholder="enter your password"/>
+     <label>
+        male =
+     </label>
+     <input type="radio" name="gender" value="male" >
+      <label>
+        femail =
+     </label>
+     <input type="radio"name="gender" value="femail" >
+     <label for="email">
+        email =
+     </label for="email">
+     <input id="email" type="email" placeholder="enter your email id">
+     <label>please accept</label>
+     <input type="checkbox" value="">
+    <button disabled="false">REGISTER NOW</button>
+</form>
 
-<!-- semantic -->
-
-
-
-
-
+<br>
     </body>
 
 </html>
