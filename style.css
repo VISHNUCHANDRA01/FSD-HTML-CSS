@@ -5,9 +5,7 @@ h1{
 h2{
     color:brown
 }
-p {
-    color: chartreuse;
-}
+
 /* id selector */
 #head-2 {
     color: green;
@@ -20,3 +18,36 @@ p {
     text-align: center;
     font-size: 30px;
 }
+h3{
+    font-family: "Roboto Slab", serif;
+    padding-left: 60px;
+    
+}
+p{
+    font-family: "Dancing Script", cursive;
+    line-height: 30px;
+}
+.card{
+    border:1px solid red;
+    padding: 15px;
+    margin: 19px;
+    width:250px;
+    border-radius: 9px;
+    background-color:rgba(57, 20, 140, 0.8) ;
+}
+/* img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+} */
+.card-img-1 {
+    width: 250px;
+    height: 250px;
+    border-bottom-left-radius: 155px;
+ }
+.card-img-2 {
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 155px;
+    border-bottom-right-radius: 155px;
+ }
