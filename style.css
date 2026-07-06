@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: brown;
 }
 
@@ -7,24 +7,24 @@ h2{
 }
 
 /* id selector */
-#head-2 {
+/* #head-2 {
     color: green;
     font-size: 50px;
-}
+} */ */
 /* class selector  */
 
-.theme-colour{
+/* .theme-colour{
     color: rgb(39, 29, 3);
     text-align: center;
     font-size: 30px;
 }
-h3{
-    font-family: "Roboto Slab", serif;
+h3{ */
+    /*  font-family: "Roboto Slab", serif;
     padding-left: 60px;
     
 }
-p{
-    font-family: "Dancing Script", cursive;
+p{*/
+    /* font-family: "Dancing Script", cursive;
     line-height: 30px;
 }
 .card{
@@ -34,13 +34,13 @@ p{
     width:250px;
     border-radius: 9px;
     background-color:rgba(57, 20, 140, 0.8) ;
-}
+} */
 /* img{
     width: 250px;
     height: 250px;
     border-radius: 100%;
 } */
-.card-img-1 {
+/* .card-img-1 {
     width: 250px;
     height: 250px;
     border-bottom-left-radius: 155px;
@@ -50,4 +50,90 @@ p{
     height: 250px;
     border-top-left-radius: 155px;
     border-bottom-right-radius: 155px;
- }
+ } */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8f9fa;
+    color:#333;
+    line-height:1.8;
+}
+
+header{
+    background:#d35400;px;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+.card-1{
+    font-weight: 400;
+}
+header h1{
+    margin-bottom:10px;
+}
+    
+}
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:100px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+section{
+    width:80%;
+    margin:30px auto;
+}
+
+section h2{
+    color:#d35400;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.card{
+    background:white;
+    border:2px solid #ddd;
+    border-radius:10px;
+    padding:20px;
+    margin:15px 0;
+}
+
+.card h3{
+    color:#2c3e50;
+}
+
+.card p{
+    margin:10px 0;
+}
+
+.card span{
+    color:#e74c3c;
+    font-weight:bold;
+    font-size:18px;
+}
+
+#about{
+    text-align:center;
+}
+
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}  
