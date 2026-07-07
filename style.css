@@ -137,3 +137,88 @@ footer{
     padding:20px;
     margin-top:40px;
 }  
+/* css position */
+
+.parent {
+    width: 500px;
+    height: 500px;
+    background-color: #e74c3c;
+    position: relative;
+}
+
+.child-1 {
+    width: 100px;
+    height: 100px;
+    background-color: #3c4de7;
+    position:absolute;
+    z-index: 2;
+    right: 0px;
+    bottom:0px
+
+}
+
+.child-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #64e73c;
+    position:absolute;
+    z-index: 1;
+    right: 0px;
+    bottom:0px
+    
+}
+
+/* flex box */
+
+.home{
+    background-color: rgb(85, 79, 90);
+    justify-content: space-around;
+    gap: 50px;
+    height: 200px;
+    align-items: center;
+    display:flex
+}
+
+.card-1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(129, 15, 235);
+}
+
+.card-2{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(15, 202, 235);
+}
+
+.card-3{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(235, 99, 15);
+}
+ /* nav menu */
+
+ header{
+    justify-content: center;
+    background-color: #72737b;
+    display:flex
+ }
+ nav{
+    display: flex;
+    a {
+        text-decoration: none;
+         color: #fefefe;
+        padding: 10px 20px;
+        display: block;
+        transition: 0.5s ease-in-out;
+        &:hover{
+            background-color: rgb(249, 250, 249);
+            color: black;
+            border-radius: 15px;
+
+        }
+    }
+ }
+
+
+ }
